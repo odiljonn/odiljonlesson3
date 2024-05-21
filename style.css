@@ -1,0 +1,97 @@
+body, h1, h2, h3, p, ul, {
+	margin: 0;
+	padding: 0;
+
+}
+
+#header {
+	background-color: coral;
+}
+
+.container {
+	width: 70%;
+	margin: 0auto;
+}
+
+
+#header h1 {
+	color: #fff;
+	font-family: sans-serif;
+	padding: 10px 0;
+}
+
+#navbar {
+	background-color: #333;
+}
+
+#navbar ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#navbar ul li {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 20px;
+	display: inline-block;
+	font-family: sans-serif;
+}
+
+#navbar ul li:first-child a{
+	padding-left: 0;
+}
+
+#showcase {
+	background-image: url(https://image.freepik.com/darmowe-zdjecie/fraktal-streszczenie-fraktal-sztuki-tla-dla-kreatywnego-projektowania-ozdoba-do-tapety-na-pulpit-plakatu-okladki-karty_157947-1562.jpg);
+	background-position: center right;
+}
+
+#showcase h1 {
+	color: #fff;
+	font-size: 50px;
+	font-family: sans-serif;
+	padding-top: 100px;
+	text-align: center;
+}
+
+#main {
+	color: #555;
+	margin-top: 30px;	
+}
+
+
+#main h3 {
+	margin-bottom: 10px;
+}
+
+.content {
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+	padding-right: 20px;:
+}
+
+.sidebar {
+	float: left;
+	width: 30%;
+	background-color: #333;
+	padding: 20px 10px;
+	box-sizing: border-box; 
+}
+
+.clr {
+	clear: both;
+}
+
+#footer {
+	background-color: #111;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+	font-family: sans-serif;
+	padding: 30px 0;
+}
+
+
+
+
